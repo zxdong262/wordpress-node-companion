@@ -4,5 +4,5 @@
 /public/
 *.log
 /local.js
-!/res/empty.file
-!/public/empty.file
+!/res/empty.html
+!/public/empty.html
