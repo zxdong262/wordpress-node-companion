@@ -1,0 +1,8 @@
+# gitignore
+/node_modules/
+/res/
+/public/
+*.log
+/local.js
+!/res/empty.file
+!/public/empty.file
