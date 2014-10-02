@@ -12,7 +12,7 @@ a companion app for wordpress, serve wordpress content by express(nodejs)
 1. get it ready
 
 ```Batchfile
-git clone git@github.com:zxdong262/wordpress-node-companion.git
+git clone https://github.com/zxdong262/wordpress-node-companion.git
 cd wordpress-node-companion
 sudo npm install
 cp local-sample.js local.js
