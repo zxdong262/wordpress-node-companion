@@ -33,6 +33,12 @@ app.use(bodyParser.json())
 // parse application/vnd.api+json as json
 app.use(bodyParser.json({ type: 'application/vnd.api+json' }))
 
+//for font
+app.use(function(req, res, next){
+	 res.setHeader('Access-Control-Allow-Origin', '*')
+	 next()
+})
+
 //static files
 app.use(express.static(__dirname + '/public', {
 	maxAge: oneYear
